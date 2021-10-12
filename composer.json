@@ -1,0 +1,22 @@
+{
+    "name": "mrsilentbeast/project-mvc",
+    "description": "project-mvc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MrSilentBeast",
+            "email": "MrSilentBeast@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
